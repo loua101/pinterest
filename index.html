@@ -1,0 +1,223 @@
+
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <title>Amazon Prime Vídeo</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&amp;display=swap" rel="stylesheet">
+    <style>
+        #netflixlogoapp{
+            width: 100px;
+            margin: 10px;
+        }
+        *{
+            margin: 0px;
+            font-family: "Poppins", sans-serif;
+            padding: 0px;
+        }
+        body{
+            background-color: #1b252f;
+        }
+        #barranetflix{
+            background: linear-gradient( #1b252f, rgba(255, 0, 0, 0));
+            display: flex;
+            justify-content: space-between;
+            margin: 0px;
+        }
+        #bannerprincipal{
+            background-image: url('images/1jy4xdMf4wYA.png') ;
+            background-position: center; /* Center the image */
+            background-repeat: no-repeat; /* Do not repeat the image */
+            background-size: cover;
+        }
+        #textoprincipal{
+            color: white;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            text-align: center;
+            font-size: 27px;
+        }
+        #ganheassistindocaixa{
+            padding: 5px;
+            text-align: center;
+            font-size: 23px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            margin-top: 10px;
+            background-color: #0f79af;
+            width: 60%;
+        }
+        #textodetalhelogin{
+            font-size: 15px;
+            margin-top: 20px;
+            margin-left: 10px;
+            margin-right: 10px;
+            font-weight: 500;
+        }
+        #inputtypetext{
+            border: 1px solid rgba(255, 255, 255, 0.411);
+            background-color: rgba(0, 0, 0, 0.63);
+            color: white;
+            width: 80%;
+            border-radius: 5px;
+            margin-top: 20px;
+            padding: 13px 10px;
+            font-weight: 700;
+        }
+        a{
+            text-decoration: none;
+        }
+        #botaoproximaetapa{
+            padding: 10px;
+            font-weight: 700;
+            width: 70%;
+            margin-top: 10px;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            background-color: #0f79af;
+        }
+        #botaoproximaetapaa{
+            padding: 10px;
+            font-weight: 700;
+            width: 70%;
+            margin-top: 20px;
+            color: white;
+            border-radius: 5px;
+            font-size: 18px;
+            background-color: #0f79af;
+        }
+        #botaolucraretapa{
+            background: linear-gradient(rgba(0, 0, 0, 0), #1b252f);
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 0px 0px 20px 0px;
+            text-align: center;
+        }
+        #botaolucraretapaa{
+            display: flex;
+            justify-content: center;
+            margin-top: -90px;
+            align-items: center;
+            padding: 0px 0px 20px 0px;
+            text-align: center;
+        }
+        #informativo{
+            padding: 10px;
+            margin: 10px;
+            margin-top: 5px;
+            display: flex;
+            margin-left:  -150px;
+            justify-content: center;
+            align-items: center;
+            border-radius: 5px;
+            height: 200px;
+        }
+        #pipocanetflix{
+            width: 30px;
+        }
+        #dinheirologo{
+            width: 60px;
+        }
+        .tvnetflix{
+            width: 90%;
+        }
+        #tvnetflixaax{
+            width: 250px;
+        }
+        #tvnetflixapp{
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        #videomp4net{
+            width: 200px;
+            margin-left: 50px;
+            margin-top: 30px;
+        }
+        #informativo div:first-child {
+            width: 150px;
+            height: 150px;
+            position: relative;
+        }
+        #informativo div:last-child {
+            width: 150px;
+            height: 150px;
+            position: relative;
+            margin-top: -150px;
+            margin-left: 20px;
+        }
+        #textodetalhelogindd{
+            color: white;
+            padding: 30px;
+            font-size: 18px;
+            font-weight: 600;
+            margin-top: -35px;
+            margin-bottom: -15px;
+            text-align: center;
+        }
+        footer{
+            color: white;
+            background-color: #223040;
+            height: 120px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        #saldolead{
+            margin-right: 20px;
+            padding: 10px 15px;
+            background-color: #0e161e;
+            border: 1px solid #00a8e1;
+            height: 15px;
+            border-radius: 5px;
+            display: flex;
+            margin-top: 10px;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <div id="bannerprincipal">
+        <div id="barranetflix">
+            <img src="images/YlrcexvbGPPE.png" id="netflixlogoapp">
+            <div id="saldolead">Saldo: R$ <b>0,00</b></div>
+        </div>
+        <div id="textoprincipal">
+            <div id="ganheassistindocaixa">Ganhe assistindo</div>
+            <b>Filmes, séries, esportes e <br>mais, sem limites</b>
+            <p id="textodetalhelogin">
+                <b>Quer ganhar assistindo?</b> Informe seu email e comece agora mesmo:
+            </p>
+            <input type="email" id="inputtypetext" placeholder="Email">
+        </div>
+        <div id="botaolucraretapa">
+            <a href="../PrimePay/1/index.html" id="botaoproximaetapa">Lucrar agora mesmo</a>
+        </div>
+    </div>
+
+    <p id="textodetalhelogindd">
+        A Prime Video que você adora, agora colocando dinheiro no seu bolso
+    </p>
+    <div id="informativo">
+        <div id="tvnetflixapp">
+            <div><img src="" id="videomp4net"></div>
+            <div><img src="images/iBRFoYhZD6Eh.png" id="tvnetflixaax"></div>
+        </div>
+    </div>
+    
+    <div id="botaolucraretapaa">
+        <a href="../PrimePay/1/index.html" id="botaoproximaetapaa">COMEÇAR AGORA</a>
+    </div>
+    <footer>
+        <p style="font-size: 12px;">© 1996-2024, Amazon.com, Inc. ou suas afiliadas</p>
+    </footer>
+
+</body></html>
